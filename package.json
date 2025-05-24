@@ -4,9 +4,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "node --experimental-vm-modules jest --runInBand",
-    "test:watch": "node --experimental-vm-modules jest --watch",
-    "test:coverage": "node --experimental-vm-modules jest --coverage"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "Lisandro Rezende",
