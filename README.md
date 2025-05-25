@@ -5,7 +5,7 @@
 "test": "jest --coverage"
 },
 
-`````````````````````````````````````````````````````````````````````````````````````````````````ttp://localhost:3000/alunos
+`````````````````````````````````````````````````````````````````````````````````````````````````
 
 Para ver o resultado do seu script de teste `"test": "jest --coverage"`
 [32m no terminal, você precisa executar o comando correspondente ao gerenciador de pacotes que você está usando (`npm` ).[0m
