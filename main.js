@@ -22,6 +22,7 @@ function validarCursos(cursosSelecionados) {
 }
 
 app.get("/", (req, res) => {
+  console.log("Rota / acessada!");
   res.json({
     message: "Lista de alunos cadastrados e cursos disponíveis.",
     alunos: alunos.map((aluno) => ({
@@ -115,6 +116,12 @@ app.delete("/alunos/:id", (req, res) => {
 
   alunos.splice(alunoIndex, 1);
   res.status(200).send({ message: "Aluno(a) excluído(a) com sucesso." });
+});
+
+const PORT = 3000; // Escolha a porta desejada
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
 
 module.exports = { app, alunos, proximoId }; // Agora exportamos as variáveis corretamente

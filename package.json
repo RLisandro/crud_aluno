@@ -1,5 +1,5 @@
 {
-  "name": "nova-pasta",
+  "name": "crud_aluno",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "open": "^10.1.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
