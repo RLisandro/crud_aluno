@@ -7,10 +7,13 @@
 
 `````````````````````````````````````````````````````````````````````````````````````````````````
 
-Para ver o resultado do seu script de teste `"test": "jest --coverage"`
-[32m no terminal, você precisa executar o comando correspondente ao gerenciador de pacotes que você está usando (`npm` ).[0m
+http://localhost:3000/alunos
+
+Para ver o resultado do seu script de teste `"test":
+"jest --coverage"`  no terminal, você precisa executar o comando correspondente ao gerenciador de pacotes que você está usando (npx jest ).
 
 Certifique-se de estar no diretório raiz do seu projeto (onde o arquivo `package.json` está localizado).
+
 
 
 
