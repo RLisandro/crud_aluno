@@ -24,11 +24,12 @@ function validarCursos(cursosSelecionados) {
 app.get("/", (req, res) => {
   console.log("Rota / acessada!");
   res.json({
-    message: "Lista de alunos cadastrados e cursos disponíveis.",
+    message: "Lista de alunos cadastrados .",
     alunos: alunos.map((aluno) => ({
       nome: aluno.nome,
       cursos: aluno.cursos
     })),
+    messege: "Cursos disponíveis",
     cursosDisponiveis
   });
 });
