@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
       nome: aluno.nome,
       cursos: aluno.cursos
     })),
-    messege: "Cursos disponíveis",
+
     cursosDisponiveis
   });
 });
