@@ -5,8 +5,7 @@
 "test": "jest --coverage"
 },
 
-`````````````````````````````````````````````````````````````````````````````````````````````````
-
+```````````````````````````````````````````````````````````````````````````````````````````````
 http://localhost:3000/alunos
 
 Para ver o resultado do seu script de teste `"test":
@@ -15,17 +14,16 @@ Para ver o resultado do seu script de teste `"test":
 Certifique-se de estar no diretório raiz do seu projeto (onde o arquivo `package.json` está localizado).
 
 
-
-
 ```````````````````````````````````````````````````````````````````````````````````````
 ### Como executar:
 bash
-npm test
+✨npm test
 ``````````````````````````````````````````````````````````````````````````
 🎇 Também pode -se usar o comando bash
-npx jest 
 
-Que é o recomendado já que o testes vai usar o jest 
+✨npx jest
+
+Que é o recomendado já que o testes vai usar o jest
 ``````````````````````````````````````````````````````````````````````````````````````````````
 
 
@@ -47,3 +45,5 @@ Insomnia: Um cliente de API que permite criar e enviar requisições HTTP com di
 Postman: Similar ao Insomnia, muito popular para testar APIs.
 Thunder Cleint : Intuitivo e leve que roda dentro co vscode.
 ````````````````````````````````````````````````````````````````````````````````````````````
+
+```````````````````````````````````````````````````````````````````````````````````````````````
