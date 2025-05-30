@@ -4,14 +4,14 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Lisandro Rezende",
   "email": "rezendecazuza@gmil.com",
   "license": "ISC",
   "type": "commonjs",
-  "description": "",
+  "description": "------- Primeiros passos para cordar o projeto --------\r 1) npm init -y  -  (instalar o npm )",
   "dependencies": {
     "express": "^5.1.0",
     "open": "^10.1.2"
@@ -19,5 +19,13 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "supertest": "^7.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RLisandro/crud_aluno.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RLisandro/crud_aluno/issues"
+  },
+  "homepage": "https://github.com/RLisandro/crud_aluno#readme"
 }
