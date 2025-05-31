@@ -212,14 +212,9 @@ Ambientes: Se você tiver diferentes ambientes (desenvolvimento, teste, produç�
 Verifique os Status Codes: Além do corpo da resposta, sempre verifique o Status Code HTTP (200, 201, 400, 404, etc.) para garantir que a API está se comportando como esperado.
 Seguindo esses passos, você conseguirá testar todas as funcionalidades da sua API de CRUD de alunos usando o Thunder Client! Se tiver mais alguma dúvida, é só perguntar.
 
-Rate this answer:
-Context Sources (5)
-
-Lisandro
 Coleções: No Thunder Client, você pode criar "Collections" para organizar suas requisições. Isso é útil para agrupar todos os testes da sua API de alunos. Como faço ?
 
-Gemini
-Com certeza! Usar coleções no Thunder Client é uma ótima maneira de manter seus testes de API organizados. É bem simples de fazer:
+É bem simples de fazer:
 
 Passos para criar uma Coleção no Thunder Client:
 
